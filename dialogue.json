@@ -1,0 +1,51 @@
+{
+    "pc": {
+        "name": "Bob",
+        "bio": "Yo! What's up? My name is Bob."
+    },
+    "npcs": [
+        {
+            "name": "Alice",
+            "bio": "Hello, my name is Alice.",
+            "attitude": "CALM",
+            "relation": "FRIENDLY"
+        }
+    ],
+    "talking_points": [
+        {
+            "character": "Alice",
+            "order": 0,
+            "description": "Alice wants to know if Bob has a date to the dance.",
+            "points": [
+                {
+                    "text": "Do you have a date for the dance?",
+                    "attitude": "NERVOUS",
+                    "relation": null
+                }
+            ]
+        },
+        {
+            "character": "Alice",
+            "order": 1,
+            "description": "Alice wants Bob to ask her to the dance so she can respond.",
+            "points": [
+                {
+                    "text": "Yes, I will go to the dance with you.",
+                    "attitude": "HAPPY",
+                    "relation": "ROMANTIC"
+                },
+                {
+                    "text": "No, I will not go to the dance with you.",
+                    "attitude": "SAD",
+                    "relation": "NEUTRAL"
+                }
+            ]
+        }
+    ],
+    "turns": [
+        {
+            "character": "Alice",
+            "text": "Hey Bob! What's up?"
+        }
+    ]
+}
